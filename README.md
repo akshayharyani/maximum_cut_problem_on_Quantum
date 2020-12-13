@@ -1,15 +1,7 @@
-# Quantum Algo for Maximum cut problem
+# Cloud Solutions for quantum computing for the Maximum cut problem
 
 Maximum cut is an NP-complete problem.  No polynomial-time algorithms for Max-Cut in general graphs are known. Running it on a Quantum computer can theoretically reduce the compute time.
 
-
-## Usage
-
-Use python to run the algorithm.
-
-```bash
-python max_cut.py
-```
 
 ## About the problem
 
@@ -43,6 +35,34 @@ was done using the Python network library for creating and
 analyzing weighted undirected graphs. We used matplotlib
 to draw the resultant graph and store it in the IDE or display
 it in Jupyter Notebook
+
+## Running the algorithm D-Wave Quantum System
+
+Create a free tier account on https://cloud.dwavesys.com/leap/
+
+Open an empty workspace and copy the python file in the LEAP IDE provided by DWave.
+
+Open a Terminal and run the following command
+
+```bash
+python max_cut.py
+```
+
+The result will be displayed in form of an image and saved in the same directory.
+
+## Running the algorithm on IBM Quantum Experience
+Create a new Jupyter Notebook on IBM Q platform
+
+Import required libraries like qiskit
+
+Create an example of the maximum cut problem
+
+Convert the problem to a Ising Formula
+
+Choose the available IBM Quantum system or simulator
+
+Results displayed in the Jupyter Notebook
+
 
 ## Running the algorithm on AWS braket
 Create Sagemaker (Jupyter) notebook instance.
