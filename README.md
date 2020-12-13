@@ -45,7 +45,9 @@ to draw the resultant graph and store it in the IDE or display
 it in Jupyter Notebook
 
 ## Running the algorithm on AWS braket
-Create the notebook in AWS braket.
+Create Sagemaker (Jupyter) notebook instance.
+
+Create S3 bucket and link it with notebook instance
 
 Import braket SDK.
 
@@ -53,6 +55,11 @@ copy the code from file `Amazon-Braket-MaximumCut.ipynb`
 
 Choose the hardware device to run on.
 
+Choose number of shots
+
+Submit task to the QPU
+
+When job is completed, AWS cloud watch event is created.
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
