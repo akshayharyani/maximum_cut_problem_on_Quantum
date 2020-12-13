@@ -43,6 +43,14 @@ was done using the Python network library for creating and
 analyzing weighted undirected graphs. We used matplotlib
 to draw the resultant graph and store it in the IDE or display
 it in Jupyter Notebook
+
+## Running the agorithm on AWS braket
+Create the notebook in AWS braket
+Import braket SDK
+copy the code from file `Amazon-Braket-MaximumCut.ipynb` 
+Choose the hardware device to run on.
+
+
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
